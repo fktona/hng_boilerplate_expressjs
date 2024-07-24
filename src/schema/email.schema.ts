@@ -5,11 +5,12 @@
  *   description: API for sending email messages with templates
  */
 /**
- * @swagger
- * tags:
- *  name: Get Email Templates
- *  description: API for retrieving available email templates
- *  */
+ * 
+ /**@swagger
+  * tags:
+  *   name: Get Email Templates
+  *   description: API for getting email templates
+  */
 
 /**
  * @swagger
@@ -103,8 +104,7 @@
  * paths:
  *   /send-email:
  *     post:
- *       summary: Send an email using a specified template
- *       tags: [Send Email Messages]
+ *       summary: Send an email using a specified templae
  *       tags: [Send Email Messages]
  *       security:
  *         - bearerAuth: []
@@ -142,6 +142,7 @@
  *   /email-templates:
  *     get:
  *       summary: Retrieve a list of available email templates
+ *       tags: [Get Email Templates]
  *       security:
  *         - bearerAuth: []
  *       responses:
